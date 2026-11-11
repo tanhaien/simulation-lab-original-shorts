@@ -20,7 +20,41 @@
       },
       "audio": "original synthetic offline TTS",
       "not_real_robots": true,
-      "publication_status": "NOT_YET_VERIFIED"
+      "publication_status": "SCHEDULED_PENDING",
+      "metricool_post_id": 424247173,
+      "scheduled_at": "2026-11-12T16:00:00+07:00"
+    },
+    {
+      "id": "003",
+      "title": "65% Broken Links: Does the Network Survive?",
+      "research_question": "How much link failure isolates a network?",
+      "reproducible_results": {
+        "largest_component_10pct": 64,
+        "largest_component_35pct": 61,
+        "largest_component_65pct": 18
+      },
+      "sha256": "6e5e7bfd172bbb50d4710e152ebcf806c8bc70ef0eceec14dd68771a047ccc89",
+      "release_tag": "ep003-network-resilience",
+      "publication_status": "SCHEDULED_PENDING",
+      "metricool_post_id": 424254521,
+      "scheduled_at": "2026-11-14T20:00:00+07:00"
+    },
+    {
+      "id": "004",
+      "title": "One Checkout Line or Two?",
+      "research_question": "Does a shared FIFO queue reduce wait versus random separate queues?",
+      "reproducible_results": {
+        "customers": 80,
+        "shared_mean_wait_sec": 6.97,
+        "separate_mean_wait_sec": 13.81,
+        "seed_replicates_favoring_shared": 7,
+        "replicates": 7
+      },
+      "sha256": "8c6846134bbc8ea6bf1160cdd48f91683c0a180ad96dd8f6cd22bd9657737e43",
+      "release_tag": "ep004-checkout-queueing",
+      "publication_status": "SCHEDULED_PENDING",
+      "metricool_post_id": 424266816,
+      "scheduled_at": "2026-11-17T20:00:00+07:00"
     }
   ]
 }
