@@ -1,0 +1,26 @@
+{
+  "channel_id": "UCQ2Xfa3yaa7Wxeb3xbW2a2A",
+  "channel_name": "Simulation Lab",
+  "handle": "@SimLabExperiments",
+  "distribution_brand_id": 7971977,
+  "episodes": [
+    {
+      "id": "002",
+      "title": "900 Bots vs 3 Memory Limits: Who Escapes the Maze?",
+      "release_tag": "ep002-memory-wipe",
+      "sha256": "0cb868ea11cf57a24037fd50d0765d8b743f6f420724c732b1f454b9609c3761",
+      "duration_sec": 45,
+      "width": 720,
+      "height": 1280,
+      "question": "How does memory reset interval affect escape rates in the same maze?",
+      "results": {
+        "wipe_20": 0,
+        "wipe_30": 292,
+        "wipe_40": 299
+      },
+      "audio": "original synthetic offline TTS",
+      "not_real_robots": true,
+      "publication_status": "NOT_YET_VERIFIED"
+    }
+  ]
+}
